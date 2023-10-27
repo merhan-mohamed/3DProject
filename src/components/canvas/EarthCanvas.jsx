@@ -1,12 +1,12 @@
 import React, {Suspense} from 'react';
 import CanvaLoader from "../loader.jsx";
 import {Canvas} from "@react-three/fiber";
-import { OrbitControls, useGLTF } from '@react-three/drei';
+import { OrbitControls, useGLTF, Preload } from '@react-three/drei';
 
 
 const Earth = () => {
 
-    const arth = useGLTF('./planet/scene.gtlf');
+    const arth = useGLTF('./planet/scene.gltf');
     return(
 
         <primitive
@@ -39,9 +39,10 @@ const EarthCanvas = () => {
             maxPolarAngle={Math.PI / 2}
             minPolarAngle= {Math.PI / 2}
             />
-
+             <Earth />
+             <Preload all />
         </Suspense>
-      <Earth />
+     
     </Canvas>
   )
 }
