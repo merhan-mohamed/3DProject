@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/3DProject/static/css/main.07c7accc.css",
-    "main.js": "/3DProject/static/js/main.c351437b.js",
+    "main.js": "/3DProject/static/js/main.f86e5f83.js",
     "static/js/27.80ec1f0b.chunk.js": "/3DProject/static/js/27.80ec1f0b.chunk.js",
     "static/media/tripguide.png": "/3DProject/static/media/tripguide.991986c795ea140ba063.png",
     "static/media/herobg.png": "/3DProject/static/media/herobg.ad33add2430e34307c33.png",
@@ -21,6 +21,6 @@
   },
   "entrypoints": [
     "static/css/main.07c7accc.css",
-    "static/js/main.c351437b.js"
+    "static/js/main.f86e5f83.js"
   ]
 }
